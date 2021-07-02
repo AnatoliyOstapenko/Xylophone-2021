@@ -13,6 +13,7 @@
 		FAF411C8268F3F9F00FBB488 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF411C6268F3F9F00FBB488 /* Main.storyboard */; };
 		FAF411CA268F3FA300FBB488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF411C9268F3FA300FBB488 /* Assets.xcassets */; };
 		FAF411CD268F3FA300FBB488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF411CB268F3FA300FBB488 /* LaunchScreen.storyboard */; };
+		FAF411D6268F3FC000FBB488 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAF411D5268F3FC000FBB488 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FAF411C9268F3FA300FBB488 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF411CC268F3FA300FBB488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF411CE268F3FA300FBB488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF411D5268F3FC000FBB488 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		FAF411B4268F3F9E00FBB488 = {
 			isa = PBXGroup;
 			children = (
+				FAF411D5268F3FC000FBB488 /* README.md */,
 				FAF411BF268F3F9E00FBB488 /* Xylophone-2021 */,
 				FAF411BE268F3F9E00FBB488 /* Products */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				FAF411CD268F3FA300FBB488 /* LaunchScreen.storyboard in Resources */,
 				FAF411CA268F3FA300FBB488 /* Assets.xcassets in Resources */,
+				FAF411D6268F3FC000FBB488 /* README.md in Resources */,
 				FAF411C8268F3F9F00FBB488 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
