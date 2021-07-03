@@ -21,7 +21,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func anyButtonPressed(_ sender: UIButton) {
-        
+        // 9) changed opacity of IBAction button to half of alpha
+        sender.alpha = 0.5
         // 6) create constant pressedButton (becuase never mutaded in the further line)
         // transfer current title of button pressed to pressedButton
         
@@ -30,7 +31,10 @@ class ViewController: UIViewController {
         } else {
             print("Another error")
         }
-        
+        // 10) added delay 0.2 second after sound before opacity goes back to alpha 1
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            sender.alpha = 1
+        }
         
     }
     // 3) create func playSound - this step is not needed, it's just to practice more function skill
