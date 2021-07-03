@@ -14,6 +14,13 @@
 		FAF411CA268F3FA300FBB488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF411C9268F3FA300FBB488 /* Assets.xcassets */; };
 		FAF411CD268F3FA300FBB488 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF411CB268F3FA300FBB488 /* LaunchScreen.storyboard */; };
 		FAF411D6268F3FC000FBB488 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAF411D5268F3FC000FBB488 /* README.md */; };
+		FAF411F526906BE800FBB488 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF411EE26906BE800FBB488 /* G.wav */; };
+		FAF411F626906BE800FBB488 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF411EF26906BE800FBB488 /* F.wav */; };
+		FAF411F726906BE800FBB488 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF411F026906BE800FBB488 /* B.wav */; };
+		FAF411F826906BE800FBB488 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF411F126906BE800FBB488 /* A.wav */; };
+		FAF411F926906BE800FBB488 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF411F226906BE800FBB488 /* D.wav */; };
+		FAF411FA26906BE800FBB488 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF411F326906BE800FBB488 /* E.wav */; };
+		FAF411FB26906BE800FBB488 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = FAF411F426906BE800FBB488 /* C.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		FAF411CC268F3FA300FBB488 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAF411CE268F3FA300FBB488 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAF411D5268F3FC000FBB488 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAF411EE26906BE800FBB488 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		FAF411EF26906BE800FBB488 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		FAF411F026906BE800FBB488 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		FAF411F126906BE800FBB488 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		FAF411F226906BE800FBB488 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		FAF411F326906BE800FBB488 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		FAF411F426906BE800FBB488 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,7 @@
 		FAF411B4268F3F9E00FBB488 = {
 			isa = PBXGroup;
 			children = (
+				FAF411ED26906B7700FBB488 /* Sounds */,
 				FAF411D5268F3FC000FBB488 /* README.md */,
 				FAF411BF268F3F9E00FBB488 /* Xylophone-2021 */,
 				FAF411BE268F3F9E00FBB488 /* Products */,
@@ -68,6 +83,20 @@
 				FAF411CE268F3FA300FBB488 /* Info.plist */,
 			);
 			path = "Xylophone-2021";
+			sourceTree = "<group>";
+		};
+		FAF411ED26906B7700FBB488 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FAF411F126906BE800FBB488 /* A.wav */,
+				FAF411F026906BE800FBB488 /* B.wav */,
+				FAF411F426906BE800FBB488 /* C.wav */,
+				FAF411F226906BE800FBB488 /* D.wav */,
+				FAF411F326906BE800FBB488 /* E.wav */,
+				FAF411EF26906BE800FBB488 /* F.wav */,
+				FAF411EE26906BE800FBB488 /* G.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,8 +156,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF411FB26906BE800FBB488 /* C.wav in Resources */,
+				FAF411FA26906BE800FBB488 /* E.wav in Resources */,
+				FAF411F926906BE800FBB488 /* D.wav in Resources */,
 				FAF411CD268F3FA300FBB488 /* LaunchScreen.storyboard in Resources */,
+				FAF411F526906BE800FBB488 /* G.wav in Resources */,
+				FAF411F826906BE800FBB488 /* A.wav in Resources */,
 				FAF411CA268F3FA300FBB488 /* Assets.xcassets in Resources */,
+				FAF411F726906BE800FBB488 /* B.wav in Resources */,
+				FAF411F626906BE800FBB488 /* F.wav in Resources */,
 				FAF411D6268F3FC000FBB488 /* README.md in Resources */,
 				FAF411C8268F3F9F00FBB488 /* Main.storyboard in Resources */,
 			);
