@@ -20,23 +20,28 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func keyButtonPressed(_ sender: UIButton) {
-        //create URL session
-        let url = Bundle.main.url(forResource: "A", withExtension: "wav")
+    @IBAction func anyButtonPressed(_ sender: UIButton) {
+        // 6) create constant pressedButton (becuase never mutaded in the further line)
+        // 6) transfer current title of button pressed to pressedButton
+        let pressedButton = sender.currentTitle
         
-        // url became optiona, so I have to unwrap url, I use guard (it's shortage way)
+        // 3) create URL session
+        // 7) change a name tittle to pressedButton
+        let url = Bundle.main.url(forResource: pressedButton, withExtension: "wav")
+        
+        // 4) url became optiona, so I have to unwrap url, I use guard (it's shortage way)
         guard url != nil else {
             return
         }
-        // Create the audio player and play the a sound from url session
-        // transfer to variable URL session, add try, and add do - carch block
-        // also I have to add exclamation mark to url
+        // 5) Create the audio player and play the a sound from url session
+        // 5) transfer to variable URL session, add try, and add do - carch block
+        // 5) also I have to add exclamation mark to url
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url!)
             audioPlayer?.play()
             
         } catch {
-            print("erroe popped up, let's RFM again")
+            print("error popped up, let's RFM again")
         }
         
         

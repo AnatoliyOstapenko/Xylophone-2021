@@ -56,9 +56,9 @@
 		FAF411B4268F3F9E00FBB488 = {
 			isa = PBXGroup;
 			children = (
-				FAF411ED26906B7700FBB488 /* Sounds */,
 				FAF411D5268F3FC000FBB488 /* README.md */,
 				FAF411BF268F3F9E00FBB488 /* Xylophone-2021 */,
+				FAF411ED26906B7700FBB488 /* Sounds */,
 				FAF411BE268F3F9E00FBB488 /* Products */,
 			);
 			sourceTree = "<group>";
